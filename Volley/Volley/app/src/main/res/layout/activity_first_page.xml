@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choisissez"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:id="@+id/btnGestionFiliere"
+        android:text="Gestion Filière"
+        android:background="#8E24AA"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:id="@+id/btnGestionEtudiant"
+        android:text="Gestion Étudiant"
+        android:background="#8E24AA"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:id="@+id/btnGestionRole"
+        android:text="Gestion Rôle"
+        android:background="#8E24AA"/>
+
+</LinearLayout>
